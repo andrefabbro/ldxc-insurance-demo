@@ -1,0 +1,79 @@
+{
+  "_from": "liferay-font-awesome@^3.3.2",
+  "_id": "liferay-font-awesome@3.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-aXQCOHNge+rNOnT6LsDUH/SBYNTWplfntfkTqZ0RCEBjns4NulK3bnNXDBxLU65Z0bwqN56ZSzk+OZLOi+zMpQ==",
+  "_location": "/liferay-font-awesome",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "liferay-font-awesome@^3.3.2",
+    "name": "liferay-font-awesome",
+    "escapedName": "liferay-font-awesome",
+    "rawSpec": "^3.3.2",
+    "saveSpec": null,
+    "fetchSpec": "^3.3.2"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/liferay-font-awesome/-/liferay-font-awesome-3.3.2.tgz",
+  "_shasum": "d44b1ad7da68863a046913cdf2dc683ee0c30473",
+  "_spec": "liferay-font-awesome@^3.3.2",
+  "_where": "/Users/andrefabbro/DEV/liferay-servers/poc-dxp-72/themes/gympass-theme",
+  "author": {
+    "name": "Dave Gandy",
+    "email": "dave@fontawesome.io",
+    "url": "http://twitter.com/davegandy"
+  },
+  "bugs": {
+    "url": "https://github.com/FortAwesome/Font-Awesome/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Rob Madole",
+      "url": "http://twitter.com/robmadole"
+    },
+    {
+      "name": "Geremia Taglialatela",
+      "url": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Travis Chase",
+      "url": "http://twitter.com/supercodepoet"
+    }
+  ],
+  "dependencies": {
+    "less": "1.4.1"
+  },
+  "deprecated": false,
+  "description": "The iconic font designed for Bootstrap",
+  "homepage": "http://fontawesome.io/",
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "font",
+    "bootstrap"
+  ],
+  "licenses": [
+    {
+      "type": "SIL OFL 1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT License",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "name": "liferay-font-awesome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "version": "3.3.2"
+}

@@ -1,0 +1,30 @@
+{
+	"devDependencies": {
+		"compass-mixins": "0.12.10",
+		"gulp": "3.9.1",
+		"liferay-font-awesome": "^3.3.2",
+		"liferay-frontend-common-css": "^1.0.4",
+		"liferay-frontend-theme-styled": "^4.0.0-alpha.1552930087997",
+		"liferay-frontend-theme-unstyled": "^4.0.0-alpha.1552930030671",
+		"liferay-theme-tasks": "^9.0.0-alpha.1"
+	},
+	"keywords": [
+		"liferay-theme"
+	],
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"screenshot": "",
+		"rubySass": false,
+		"templateLanguage": "ftl",
+		"version": "7.2"
+	},
+	"main": "package.json",
+	"name": "gympass-theme",
+	"scripts": {
+		"build": "liferay-npm-scripts theme build",
+		"checkFormat": "liferay-npm-scripts check",
+		"format": "liferay-npm-scripts fix"
+	},
+	"version": "1.0.0",
+	"dependencies": {}
+}
