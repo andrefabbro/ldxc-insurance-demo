@@ -76,7 +76,7 @@
 
 					<!-- Header Logo -->
 					<a href="${site_default_url}" class="header-logo" <@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-						<img alt="${logo_description}" src="${images_folder}/logo/logo.png">
+						<img alt="${logo_description}" src="${images_folder}/logo/logo.png" class="logo__header">
 					</a>
 					<!--// Header Logo -->
 

@@ -2,6 +2,13 @@
  * Header
  */
 
+.logo__header {
+    width: 100px;
+    @media #{$sm-layout} {
+        width: 60px;
+    }
+}
+
 #wrapper {
     padding-top: 0px !important;
 }
