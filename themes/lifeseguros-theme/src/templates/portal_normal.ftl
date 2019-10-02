@@ -121,11 +121,159 @@
 		</#if>
 	</section>
 
-	<footer id="footer" role="contentinfo">
-		<p class="powered-by">
-			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay</a>
-		</p>
-	</footer>
+	<!-- Footer -->
+		<footer class="footer" role="contentinfo">
+
+			<!-- Footer Contact Area -->
+			<div class="footer-contact-area">
+				<div class="container">
+					<div class="footer-contact">
+						<div class="row">
+							<div class="col">
+								<div class="footer-contact-block">
+									<span class="footer-contact-icon">
+										<i class="zmdi zmdi-phone"></i>
+									</span>
+									<p><a href="#">+0884567863</a><br><a href="#">+0884567863</a></p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="footer-contact-block">
+									<span class="footer-contact-icon">
+										<i class="zmdi zmdi-home"></i>
+									</span>
+									<p>958 Lilyan Junction, Mitchellmouth, Rwanda</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="footer-contact-block">
+									<span class="footer-contact-icon">
+										<i class="zmdi zmdi-email"></i>
+									</span>
+									<p><a href="#">info@example.com</a><br><a href="#">info2@example.com</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Footer Contact Area -->
+
+			<!-- Footer Inner -->
+			<div class="footer-inner">
+
+				<!-- Footer Widgets Area -->
+				<div class="footer-widgets-area section-padding-lg">
+					<div class="container">
+						<div class="row widgets footer-widgets">
+
+							<div class="col-lg-3 col-md-6">
+								<div class="single-widget widget-info">
+									<div class="logo">
+										<a href="index.html">
+											<img src="assets/images/logo/logo-2.png" alt="footer logo">
+										</a>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+										incisequi nesciunt. Neque
+										porro quisquam.</p>
+									<ul class="footer-socialicons">
+										<li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+										<li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+										<li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+										<li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-6">
+								<div class="single-widget widget-links">
+									<h4 class="widget-title">
+										<span>Policy</span>
+									</h4>
+									<ul>
+										<li><a href="#">Term</a></li>
+										<li><a href="#">Licenses</a></li>
+										<li><a href="#">Fund</a></li>
+										<li><a href="#">Support</a></li>
+										<li><a href="#">Security</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6">
+								<div class="single-widget widget-latestblog">
+									<h4 class="widget-title">
+										<span>Latest Blog</span>
+									</h4>
+									<ul>
+										<li>
+											<div class="widget-latestblog-image">
+												<a href="blog-details.html">
+													<img src="assets/images/blog/thumbnails/blog-thumbnail-1.png" alt="blog thumbnail">
+												</a>
+											</div>
+											<span>1st Janu, 2018</span>
+											<h5><a href="blog-details.html">Ipsam rerum nisi beatae et</a></h5>
+										</li>
+										<li>
+											<div class="widget-latestblog-image">
+												<a href="blog-details.html">
+													<img src="assets/images/blog/thumbnails/blog-thumbnail-2.png" alt="blog thumbnail">
+												</a>
+											</div>
+											<span>1st Janu, 2018</span>
+											<h5><a href="blog-details.html">Ipsam rerum nisi beatae et</a></h5>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6">
+								<div class="single-widget widget-newsletter">
+									<h4 class="widget-title">
+										<span>Newsletter</span>
+									</h4>
+									<p>Lorem ipsum dolor sit amet, coadipisicint, sed do eiusmod tempor incididunt</p>
+									<form action="#" class="widget-newsletter-form">
+										<input type="text" placeholder="Your email...">
+										<button type="submit"><img src="assets/images/icons/paper-plane-white.png" alt="send"></button>
+									</form>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!--// Footer Widgets Area -->
+
+				<!-- Footer Copyright Area -->
+				<div class="footer-copyright-area">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-12">
+								<p class="copyright-text">Copyright 2018 &copy; <a href="#">Gregory</a>, All Right
+									Reserved</p>
+							</div>
+							<div class="col-lg-6 col-12">
+								<ul class="copyright-links">
+									<li><a href="#">Help</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Privacy</a></li>
+									<li><a href="#">Support </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--// Footer Copyright Area -->
+
+			</div>
+			<!--// Footer Inner -->
+
+		</footer>
+		<!--// Footer -->
 </div>
 
 <@liferay_util["include"] page=body_bottom_include />
