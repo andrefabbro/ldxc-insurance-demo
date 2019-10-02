@@ -12,14 +12,6 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Js Files -->
-	<script src="${javascript_folder}/vendor/modernizr-3.6.0.min.js"></script>
-	<script src="${javascript_folder}/vendor/jquery-3.3.1.min.js"></script>
-	<script src="${javascript_folder}/popper.min.js"></script>
-	<script src="${javascript_folder}/bootstrap.min.js"></script>
-	<script src="${javascript_folder}/plugins.js"></script>
-
-
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="${images_folder}/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="${images_folder}/icon.png">
@@ -33,6 +25,11 @@
 	<link rel="stylesheet" href="${css_folder}/plugins.css">
 
 	<@liferay_util["include"] page=top_head_include />
+
+	<!-- Js Files -->
+	<script src="${javascript_folder}/vendor/modernizr-3.6.0.min.js"></script>
+	<script src="${javascript_folder}/popper.min.js"></script>
+	<script src="${javascript_folder}/plugins.js"></script>
 </head>
 
 <body class="${css_class}">
