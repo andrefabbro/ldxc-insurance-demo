@@ -249,16 +249,16 @@
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-6 col-12">
-								<p class="copyright-text">Copyright 2018 &copy; <a href="#">Gregory</a>, All Right
+								<p class="copyright-text">Copyright 2019 &copy; <a href="http://www.liferay.com">Liferay</a>, All Rights
 									Reserved</p>
 							</div>
 							<div class="col-lg-6 col-12">
 								<ul class="copyright-links">
-									<li><a href="#">Help</a></li>
-									<li><a href="#">About</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Privacy</a></li>
-									<li><a href="#">Support </a></li>
+									<li><a href="#">Ajuda</a></li>
+									<li><a href="#">Sobre</a></li>
+									<li><a href="#">Produtos</a></li>
+									<li><a href="#">Privacidade</a></li>
+									<li><a href="#">Suporte </a></li>
 								</ul>
 							</div>
 						</div>
