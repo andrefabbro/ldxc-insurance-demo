@@ -1,6 +1,9 @@
-<nav class="${nav_css_class}" id="navigation" role="navigation">
+<nav class="${nav_css_class} in-navigation" id="navigation" role="navigation">
+
 	<ul aria-label="<@liferay.language key="site-pages" />" role="menubar">
+
 		<#list nav_items as nav_item>
+
 			<#assign
 				nav_item_attr_has_popup = ""
 				nav_item_css_class = ""
@@ -14,10 +17,20 @@
 				/>
 			</#if>
 
+			<#if nav_item.hasChildren()>
+				<#assign
+					nav_item_css_class = "in-dropdown ${nav_item_css_class}"
+				/>
+			</#if>
+
 			<li class="${nav_item_css_class}" id="layout_${nav_item.getLayoutId()}" role="presentation">
-				<a aria-labelledby="layout_${nav_item.getLayoutId()}" ${nav_item_attr_has_popup} href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem"><span><@liferay_theme["layout-icon"] layout=nav_item_layout /> ${nav_item.getName()}</span></a>
+
+				<a aria-labelledby="layout_${nav_item.getLayoutId()}" ${nav_item_attr_has_popup} href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem">
+					<@liferay_theme["layout-icon"] layout=nav_item_layout /> ${nav_item.getName()}
+				</a>
 
 				<#if nav_item.hasChildren()>
+
 					<ul class="child-menu" role="menu">
 						<#list nav_item.getChildren() as nav_child>
 							<#assign
@@ -33,6 +46,7 @@
 							<li class="${nav_child_css_class}" id="layout_${nav_child.getLayoutId()}" role="presentation">
 								<a aria-labelledby="layout_${nav_child.getLayoutId()}" href="${nav_child.getURL()}" ${nav_child.getTarget()} role="menuitem">${nav_child.getName()}</a>
 							</li>
+							
 						</#list>
 					</ul>
 				</#if>
