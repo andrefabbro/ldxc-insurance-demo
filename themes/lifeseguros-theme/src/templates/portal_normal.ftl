@@ -169,7 +169,7 @@
 								<div class="single-widget widget-info">
 									<div class="logo">
 										<a href="index.html">
-											<img src="${images_folder}/logo/logo-2.png" alt="footer logo" style="width: 66px; filter: invert(0.4);">
+											<img src="${images_folder}/logo/logo-2.png" alt="footer logo" style="width: 150px; filter: invert(0.4);">
 										</a>
 									</div>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
