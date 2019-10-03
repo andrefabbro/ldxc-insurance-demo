@@ -168,7 +168,7 @@
 								<div class="single-widget widget-info">
 									<div class="logo">
 										<a href="index.html">
-											<img src="assets/images/logo/logo-2.png" alt="footer logo">
+											<img src="${images_folder}/logo/logo-2.png" alt="footer logo" style="width: 66px; filter: invert(0.4);">
 										</a>
 									</div>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -207,7 +207,7 @@
 										<li>
 											<div class="widget-latestblog-image">
 												<a href="blog-details.html">
-													<img src="assets/images/blog/thumbnails/blog-thumbnail-1.png" alt="blog thumbnail">
+													<img src="${images_folder}/blog/thumbnails/blog-thumbnail-1.png" alt="blog thumbnail">
 												</a>
 											</div>
 											<span>1st Janu, 2018</span>
@@ -216,7 +216,7 @@
 										<li>
 											<div class="widget-latestblog-image">
 												<a href="blog-details.html">
-													<img src="assets/images/blog/thumbnails/blog-thumbnail-2.png" alt="blog thumbnail">
+													<img src="${images_folder}/blog/thumbnails/blog-thumbnail-2.png" alt="blog thumbnail">
 												</a>
 											</div>
 											<span>1st Janu, 2018</span>
@@ -234,7 +234,7 @@
 									<p>Lorem ipsum dolor sit amet, coadipisicint, sed do eiusmod tempor incididunt</p>
 									<form action="#" class="widget-newsletter-form">
 										<input type="text" placeholder="Your email...">
-										<button type="submit"><img src="assets/images/icons/paper-plane-white.png" alt="send"></button>
+										<button type="submit"><img src="${images_folder}/icons/paper-plane-white.png" alt="send"></button>
 									</form>
 								</div>
 							</div>
