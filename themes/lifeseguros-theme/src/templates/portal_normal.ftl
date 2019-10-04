@@ -30,6 +30,7 @@
 	<script src="${javascript_folder}/vendor/modernizr-3.6.0.min.js"></script>
 	<script src="${javascript_folder}/popper.min.js"></script>
 	<script src="${javascript_folder}/plugins.js"></script>
+	<script src="${javascript_folder}/jquery.mask.min.js"></script>
 </head>
 
 <body class="${css_class}">
