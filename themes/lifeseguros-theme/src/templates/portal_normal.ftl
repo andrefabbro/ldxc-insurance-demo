@@ -188,14 +188,15 @@
 							<div class="col-lg-2 col-md-6">
 								<div class="single-widget widget-links">
 									<h4 class="widget-title">
-										<span>Policy</span>
+										<span>LifeSeguros</span>
 									</h4>
 									<ul>
-										<li><a href="#">Term</a></li>
-										<li><a href="#">Licenses</a></li>
-										<li><a href="#">Fund</a></li>
-										<li><a href="#">Support</a></li>
-										<li><a href="#">Security</a></li>
+										<li><a href="#">Auto</a></li>
+										<li><a href="#">Empresarial</a></li>
+										<li><a href="#">Residência</a></li>
+										<li><a href="#">Saúde</a></li>
+										<li><a href="#">Viagem</a></li>
+										<li><a href="#">Vida</a></li>
 									</ul>
 								</div>
 							</div>
@@ -203,7 +204,7 @@
 							<div class="col-lg-3 col-md-6">
 								<div class="single-widget widget-latestblog">
 									<h4 class="widget-title">
-										<span>Latest Blog</span>
+										<span>Últimas Notícias</span>
 									</h4>
 									<ul>
 										<li>
@@ -212,8 +213,8 @@
 													<img src="${images_folder}/blog/thumbnails/blog-thumbnail-1.png" alt="blog thumbnail">
 												</a>
 											</div>
-											<span>1st Janu, 2018</span>
-											<h5><a href="blog-details.html">Ipsam rerum nisi beatae et</a></h5>
+											<span>1o. Dez, 2019</span>
+											<h5><a href="blog-details.html">Por que contratar um seguro para o meu carro?</a></h5>
 										</li>
 										<li>
 											<div class="widget-latestblog-image">
@@ -221,8 +222,8 @@
 													<img src="${images_folder}/blog/thumbnails/blog-thumbnail-2.png" alt="blog thumbnail">
 												</a>
 											</div>
-											<span>1st Janu, 2018</span>
-											<h5><a href="blog-details.html">Ipsam rerum nisi beatae et</a></h5>
+											<span>2o Fev, 2019</span>
+											<h5><a href="blog-details.html">7 mitos sobre a contratação de um seguro</a></h5>
 										</li>
 									</ul>
 								</div>
@@ -233,7 +234,7 @@
 									<h4 class="widget-title">
 										<span>Newsletter</span>
 									</h4>
-									<p>Lorem ipsum dolor sit amet, coadipisicint, sed do eiusmod tempor incididunt</p>
+									<p>Acompanhe as novidades da LifeSeguros além de dicas de saúde, bem-estar e viagem.</p>
 									<form action="#" class="widget-newsletter-form">
 										<input type="text" placeholder="Your email...">
 										<button type="submit"><img src="${images_folder}/icons/paper-plane-white.png" alt="send"></button>
