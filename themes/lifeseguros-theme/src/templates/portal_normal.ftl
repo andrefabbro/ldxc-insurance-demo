@@ -138,7 +138,7 @@
 									<span class="footer-contact-icon">
 										<i class="zmdi zmdi-phone"></i>
 									</span>
-									<p><a href="#">+0884567863</a><br><a href="#">+0884567863</a></p>
+									<p><a href="#">+558121216000</a><br><a href="#">+558121216008</a></p>
 								</div>
 							</div>
 							<div class="col">
@@ -146,7 +146,7 @@
 									<span class="footer-contact-icon">
 										<i class="zmdi zmdi-home"></i>
 									</span>
-									<p>958 Lilyan Junction, Mitchellmouth, Rwanda</p>
+									<p>Alameda Santos, 2480 - São Paulo, SP</p>
 								</div>
 							</div>
 							<div class="col">
@@ -154,7 +154,7 @@
 									<span class="footer-contact-icon">
 										<i class="zmdi zmdi-email"></i>
 									</span>
-									<p><a href="#">info@example.com</a><br><a href="#">info2@example.com</a></p>
+									<p><a href="#">lifeseguros@life.com.br</a><br><a href="#">atendimento@life.com.br</a></p>
 								</div>
 							</div>
 						</div>
@@ -179,9 +179,7 @@
 											<img src="${images_folder}/logo/logo-2.png" alt="footer logo" style="width: 150px; filter: invert(0.4);">
 										</a>
 									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-										incisequi nesciunt. Neque
-										porro quisquam.</p>
+									<p>Você no centro da experiência</p>
 									<ul class="footer-socialicons">
 										<li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
 										<li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
