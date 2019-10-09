@@ -105,6 +105,12 @@
 			</nav>  
 			  -->
 
+			<div class="header-toparea">
+				<div class="autofit-col">
+					<@liferay.user_personal_bar />
+				</div>
+			</div>
+
 
 			<section class="content" id="content" >
 				<div class="container-fluid" >

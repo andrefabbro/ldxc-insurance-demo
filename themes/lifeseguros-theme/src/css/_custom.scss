@@ -9,3 +9,18 @@
 
 @import '../scss/style';
 
+div#p_p_id_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet_ {
+    margin-bottom: -30px;
+}
+
+.badge-danger {
+	border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    right: -10px;
+}
+
+.badge-item {
+	font-size: 10px;
+    padding: 3px 6px;
+}

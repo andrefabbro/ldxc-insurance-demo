@@ -48,19 +48,55 @@ body.open #wrapper {
         background-color: #f1f1f1;
 
     }
-
 }
 
-
 .ldxc .breadcrumb {
-
     background-color: #fff !important;
-
 }
 
 .portlet-barebone {
     .portlet-header {display: none;}
 }
 
-
 .journal-content-article dl dt { display: none }
+
+.header-toparea {
+    width: 100%;
+    height: 48px;
+    background-color: #4f5277;
+}
+
+.user-avatar-link {
+    float: right;
+    margin-right: 40px;
+}
+
+div.personal-menu-dropdown .btn {
+    border-radius: 5000px;
+    background-color: white;
+    padding: 0px;
+}
+
+.badge-danger {
+    border-radius: 50% !important;
+    position: absolute;
+    top: 35px;
+    right: 29px;
+}
+
+.badge-item {
+    font-size: 10px;
+    padding: 1px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

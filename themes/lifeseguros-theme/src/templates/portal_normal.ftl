@@ -57,11 +57,17 @@
 					</div>
 					<div class="col-lg-6">
 						<ul class="header-toplinks">
-							<#if !is_signed_in><li>
-								<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
-							</li></#if>
-							<li><a href="#">FAÇA UMA COTAÇÃO</a></li>
-							<li><a href="#">PRECISA DE UM CORRETOR?</a></li>
+							<#if !is_signed_in>
+								<li>
+									<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
+								</li>
+								<li><a href="#">FAÇA UMA COTAÇÃO</a></li>
+								<li><a href="#">PRECISA DE UM CORRETOR?</a></li>
+							<#else>
+								<div class="autofit-col">
+									<@liferay.user_personal_bar />
+								</div>
+							</#if>
 						</ul>
 					</div>
 				</div>
