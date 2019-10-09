@@ -313,9 +313,9 @@ md = {
       /* ----------==========     Daily Sales Chart initialization    ==========---------- */
 
       dataDailySalesChart = {
-        labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+        labels: ['Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out'],
         series: [
-          [12, 17, 7, 17, 23, 18, 38]
+          [12, 17, 7, 17, 23, 18]
         ]
       };
 
@@ -342,9 +342,9 @@ md = {
       /* ----------==========     Completed Tasks Chart initialization    ==========---------- */
 
       dataCompletedTasksChart = {
-        labels: ['12p', '3p', '6p', '9p', '12p', '3a', '6a', '9a'],
+        labels: ['Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out'],
         series: [
-          [230, 750, 450, 300, 280, 240, 200, 190]
+          [230, 750, 450, 300, 280, 240]
         ]
       };
 
@@ -373,7 +373,7 @@ md = {
       var dataWebsiteViewsChart = {
         labels: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
         series: [
-          [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+          [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 0, 0]
 
         ]
       };
